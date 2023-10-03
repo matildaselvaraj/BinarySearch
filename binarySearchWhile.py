@@ -7,9 +7,9 @@ def binarySearch(A, target):
 
     # Så länge som det aktuella intervallet mellan lo och hi är större än 1
     while lo + 1 < hi:     
-        mid = (lo + hi)//2      # mid är mittemellan lo och hi, avrundat neråt till närmsta heltal
+        mid = (lo + hi)//2      # mid är mittemellan lo och hi avrundat neråt till närmsta heltal
         if A[mid] > target:     
-            hi = mid            # om mitten av intervallet har för stora värden kollar vi på den lägra halvan av intervallet
+            hi = mid            # om mitten av intervallet har för stort värde kollar vi på den lägra halvan av intervallet
         else:
             lo = mid            # annars tittar vi på den övre halvan av intervallet 
     
