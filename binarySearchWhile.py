@@ -1,9 +1,4 @@
 
-A = [1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8]
-target = 2
-
-
-
 def binarySearch(A, target):
 
     # Våra pointers startar i vardera ända av arrayen 
@@ -25,5 +20,9 @@ def binarySearch(A, target):
         
     return None         # om lo inte pekar på vårt target så finns inte vårt target med i listan, då returnerar vi None
 
+
+# Test:
+A = [1, 1, 1, 1, 1, 1, 2, 4, 5, 7, 8]
+target = 2
 x = binarySearch(A, target)
 print(x)
