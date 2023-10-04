@@ -1,4 +1,5 @@
 
+# Rekursiv binary search
 def binarySearch(A, target, lo, hi):
     
     # Kolla om det aktuella intervallet mellan lo och hi är 1 eller mindre (basfallet)
